@@ -9,7 +9,7 @@ const Orders = () => {
   useEffect(() => {
     const fetchOrders = async () => {
       try {
-        const response = await axios.get("http://localhost:3002/allorders");
+        const response = await axios.get("https://nex-trade-backend.onrender.com/allorders");
         setOrders(response.data);
       } catch (error) {
         console.error("Error fetching orders:", error);

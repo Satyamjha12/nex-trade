@@ -848,3 +848,22 @@ body {
     width: 100%;
     padding: 0%;
   }
+
+  .additionalInfo{
+    display: flex;
+    font-size: 10px;
+    font: bold;
+
+  }
+  .open{
+    color: rgb(202, 173, 8);
+  }
+  .high{
+    color: green;
+  }
+  .close{
+    color: firebrick;
+  }
+  .low{
+    color: red;
+  }
